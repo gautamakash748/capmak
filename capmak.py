@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import datetime
+import plotly.express as px
 import pandas_datareader as web
 import yfinance as yf
 import capm_func  # importing plotly function python file
@@ -18,7 +19,7 @@ with col2:
     year = st.number_input("Number of years",1,10)
 # downloading data for sp500
 
-import plotly.express as px
+
 
 
 # function to plot interactive plotly chart
