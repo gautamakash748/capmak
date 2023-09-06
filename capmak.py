@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import yfinance as yf
 import datetime
 import pandas_datareader as web
+import yfinance as yf
 import capm_func  # importing plotly function python file
 
 st.set_page_config(page_title="CAPM" , page_icon="chart_with_upward_trend",layout = "wide")
